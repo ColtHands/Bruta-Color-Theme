@@ -1,21 +1,30 @@
 {
-  "name": "bruta",
-  "displayName": "bruta",
-  "description": "brutalistic-theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "bruta",
-        "uiTheme": "vs-dark",
-        "path": "./themes/bruta-color-theme.json"
-      }
-    ]
-  }
+    "name": "bruta",
+    "displayName": "Bruta",
+    "description": "brutalistic-theme",
+    "version": "0.0.2",
+    "repository": {
+        "type": "git",
+        "url": "ColtHands/eslint"
+    },
+    "scripts": {
+        "pkg": "vsce package",
+        "pub": "vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "ColtHands",
+    "contributes": {
+        "themes": [
+            {
+                "label": "bruta",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bruta-color-theme.json"
+            }
+        ]
+    }
 }
